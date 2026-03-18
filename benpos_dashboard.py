@@ -1,3 +1,6 @@
+import streamlit as st
+
+st.write("✅ App started")
 def process_file(file):
     df = pd.read_excel(file)
 
